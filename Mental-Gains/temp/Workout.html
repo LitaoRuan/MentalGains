@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fitness Web</title>
+    <link rel="stylesheet" href="Workout.css">
+</head>
+<body>
+    <header>
+        <img src="img/Profile.jpg" alt="Profile Icon" class="profile">
+    </header>
+    <div class="container">
+        <img id="header-image" src="" alt="Header Image" class="header-image">  
+
+        <div class="exercise-card">
+            <div class="header">
+                <h2 class="exercise-name">Bench Press</h2>
+                <span id="toggle-arrow" class="arrow">▼</span>
+            </div>
+
+            <div id="exercise-details" class="hidden">
+                <p class="description">Add records</p>
+
+                <div class="input-group">
+                    <label for="reps-num">Reps:</label>
+                    <input type="number" id="reps-num" value="1" min="1">
+                </div>
+
+                <div class="input-group">
+                    <label for="weight-num">Weight (kg):</label>
+                    <input type="number" id="weight-num" value="0" min="0">
+                </div>
+
+                <button id="add-to-list" class="full-width">Save Record</button>
+            </div>
+
+            <ul id="exercise-list"></ul>
+        </div>
+    </div>
+    <script src="Workout.js"></script>
+</body>
+</html>

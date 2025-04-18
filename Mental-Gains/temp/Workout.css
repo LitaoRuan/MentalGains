@@ -1,0 +1,127 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    flex-direction: column;
+}
+
+.container {
+    background: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: left;
+    width: 350px;
+}
+
+.header-image {
+    width: 100%;
+    max-width: 350px;
+    height: auto;
+    border-radius: 8px;
+    margin-bottom: 15px;
+}
+
+.exercise-card {
+    position: relative;
+    padding: 30px;
+    border: 4px solid #111111;
+    border-radius: 8px;
+    background: #24c721;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    cursor: pointer;
+}
+
+.exercise-name {
+    font-size: 20px;
+    font-weight: bold;
+    margin: 0;
+}
+
+.arrow {
+    font-size: 15px;
+    cursor: pointer;
+}
+
+.hidden {
+    display: none;
+}
+
+.description {
+    margin-top: 10px;
+    font-size: 14px;
+    color: #555;
+}
+
+.input-group {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 20px 0;
+}
+
+.input-group label {
+    flex: 1;
+}
+
+.input-group input {
+    width: 30px;
+    padding: 5px;
+    text-align: center;
+    border: 3px solid #000000;
+    border-radius: 4px;
+}
+
+.full-width {
+    background: #000000;
+    color: rgb(247, 242, 242);
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+    width: 100%;
+    margin-top: 10px;
+    border-radius: 5px;
+}
+
+.full-width:hover {
+    background: #0f8dc7;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+    margin-top: 10px;
+}
+
+ul li {
+    background: #e9ecef;
+    padding: 5px;
+    margin-top: 5px;
+    border-radius: 4px;
+}
+/* Header styling */
+header {
+    display: flex;
+    justify-content: flex-end; /* Moves profile to the right */
+    width: 90%;
+    padding: 10px;
+}
+
+/* Profile photo styling */
+.profile {
+    width: 50px; /* Adjust size */
+    height: 50px;
+    border-radius: 50%; /* Makes it circular */
+    object-fit: cover; /* Ensures proper image fit */
+    cursor: pointer; /* Optional: Makes it clickable */
+    margin-top: 100px;
+}
